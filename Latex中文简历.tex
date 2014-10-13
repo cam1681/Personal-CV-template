@@ -1,0 +1,235 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Important note:
+% This template needs to be compiled with XeLaTeX.
+% if using chinese character please make sure you have installed the chinese character.
+% this template suppose that you have installed  SimSun(宋体), if not, install it or there will be errors in compiling.
+% author cam胡 
+% if there are some problems in running the template, please contact the author in hpp1681@163.com
+% 
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper]{article} % Default font size and paper size
+
+\usepackage{fontspec} % For loading fonts
+\defaultfontfeatures{Mapping=tex-text}
+%\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin} % Main document font
+
+\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+
+
+
+\usepackage{xeCJK} %字体
+\setCJKmainfont{SimSun}
+\newcommand{\chuhao}{\fontsize{42pt}{\baselineskip}\selectfont}
+\newcommand{\xiaochu}{\fontsize{36pt}{\baselineskip}\selectfont}
+\newcommand{\yihao}{\fontsize{28pt}{\baselineskip}\selectfont}
+\newcommand{\xiaoyi}{\fontsize{24pt}{\baselineskip}\selectfont}
+\newcommand{\erhao}{\fontsize{21pt}{\baselineskip}\selectfont}
+\newcommand{\xiaoer}{\fontsize{18pt}{\baselineskip}\selectfont}
+\newcommand{\sanhao}{\fontsize{15.75pt}{\baselineskip}\selectfont}
+\newcommand{\xiaosan}{\fontsize{15pt}{\baselineskip}\selectfont}
+\newcommand{\sihao}{\fontsize{14pt}{1.5\baselineskip}\selectfont}
+\newcommand{\xiaosi}{\fontsize{12pt}{\baselineskip}\selectfont}
+\newcommand{\wuhao}{\fontsize{10.5pt}{\baselineskip}\selectfont}
+\newcommand{\xiaowu}{\fontsize{9pt}{\baselineskip}\selectfont}
+\newcommand{\liuhao}{\fontsize{7.875pt}{\baselineskip}\selectfont}
+\newcommand{\xiaoliu}{\fontsize{6.5pt}{\baselineskip}\selectfont}
+\newcommand{\qihao}{\fontsize{5.25pt}{\baselineskip}\selectfont}
+% xetex/xelatex 字体设定宏包
+
+%if you wish to use more chinese character, enable following texts but make sure you have installed the character before.
+%\newcommand\fontnamehei{Microsoft YaHei}
+\newcommand\fontnamesong{SimSun}
+%\newcommand\fontnamekai{KaiTi}
+%\newcommand\fontnamemono{DejaVu Sans Mono}
+%\newcommand\fontnameroman{Times New Roman}
+%%设置常用中文字号，方便调用
+%楷体
+%\newfontinstance\KAI {\fontnamekai}
+%\newcommand{\kai}[1]{{\KAI#1}}
+%黑体
+%\newfontinstance\HEI{\fontnamehei}
+%\newcommand{\hei}[1]{{\HEI#1}}
+%英文
+%\newfontinstance\ENF{\fontnameroman}
+%\newcommand{\en}[1]{\,{\ENF#1}\,}
+
+% setting table color background
+\usepackage{color}
+\usepackage{colortbl}
+\definecolor{mygray}{gray}{.9}
+\definecolor{mypink}{rgb}{.86,.86,.86}
+\definecolor{mycyan}{cmyk}{.3,0,0,0}
+
+% setting the page blank size around
+\usepackage{fullpage}
+\usepackage{geometry}
+\geometry{left=1.5cm,right=1.5cm,top=.5cm,bottom=.5cm}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{0pt}{0pt} % Spacing around sections
+
+\linespread{1}
+\usepackage{bm}
+\begin{document}
+\xiaowu
+\pagestyle{empty} % Removes page numbering
+
+\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\par{\centering{\huge 王力宏}\bigskip\par} % Your name
+
+\section{个人信息}
+
+\begin{tabular}{rlrl}
+\textsc{出生:} & 1978.11.24 .人间
+&\textsc{手机:} & +86 111140220\\
+
+\textsc{地址:} &周杰大学紫荆公寓14号楼
+&\textsc{邮箱:} & \href{httt@163.com}{httt@163.com}\\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+\section{教育背景}
+\begin{tabular}{l|l}	
+
+
+  2011.8-2013.2
+   & 周杰伦大学音乐学院学院音乐科学实验班\\
+   &  \footnotesize{主修经济学. 获得新生二等奖学金}\\
+	2013.2-至今
+  \vspace{0.4em}
+	&  周杰伦大学伦敦学院\\
+	2014.1-9
+   &基石商学院 快消学堂\\
+   &  \footnotesize{学习产业思维、商业模式、渠道与终端管理、市场营销、互联网思维等知识}\\
+\end{tabular}
+
+
+%----------------------------------------------------------------------------------------
+%Social Activities
+%----------------------------------------------------------------------------------------
+
+\section{学生社工}
+
+	
+\begin{tabular}{llr}
+	\rowcolor{mypink}
+	2014.5-至今& 周杰大学舞蹈爱好者协会，会长&周杰大学\\   
+ & $\bullet$ 提出学生社团的商业模式、粉丝经济、品牌化、微信营销等概念并进行改革&\\
+ & $\bullet$ 负责维护校内关系（校团委、其他协会）及校外关系（相关公司、媒体、政府）&\\
+ & $\bullet$ 负责协会20个培训班的课程编排、场地租赁、网站运营、学员招新以及教师招聘等&\\
+ & $\bullet$ 发现市场需求与空白,成立时尚俱乐部,并担任主席&\\
+ & $\bullet$ 建立协会标准化制度与传承机制;完善协会骨干培养体系&\\
+ & $\bullet$ 负责组织协会全年社交讲座、周末舞会;组织两次大型商务舞会并担任主持人&\\
+
+	\rowcolor{mypink}
+2014.3-10&星空计划，项目组长&周杰大学\\
+ & $\bullet$星空计划面向全校选拔学员30名,旨在培养“社团制造”的行业领军人物和先锋人才&\\
+ & $\bullet$发起“十佳社团管理模式分析”项目,负责整理十佳协会相关资料,访谈十佳协会会长&\\
+ & $\bullet$从制度完善、文化建设、人才培养、活动效率、宣传创新、合作资源等方面分析整合&\\
+
+
+	\rowcolor{mypink}
+2013.5.27&社团文化节，领舞者&周杰大学\\
+ & $\bullet$周杰大学社团文化节由30多所高校200多个社团管理部门和社团协会代表参加&\\
+ & $\bullet$在社团文化节大型舞蹈节目“九州梦 -茉莉情”中担任领舞&\\
+
+
+	\rowcolor{mypink}
+2012.9.25-26&周杰论坛，项目负责人&周杰大学\\
+ & $\bullet$周杰论坛邀请国内外各领域顶尖嘉宾,是规模、影响最大的学生论坛&\\
+ & $\bullet$组织“行走在青藏高原上”论坛讲座&\\
+ & $\bullet$接洽4位演讲与到场嘉宾;撰写专场策划书、宣传稿与总结报告&\\
+ & $\bullet$带领团队8人创新设计讲座形式,最终300人场地满场&\\
+
+	\rowcolor{mypink}
+2011.11.25&中外学生交流晚会，负责人&周杰大学\\
+ & $\bullet$应中外学生交流需求,发起并组织“PARTY 之夜—中外学生交流晚会”&\\
+ & $\bullet$负责10人团队的分工协调;设计活动内容并做主持人;撰写活动总结报告&\\
+ & $\bullet$邀请来自于7个国家的留学生参与,且中外学生比例达到1:1&\\
+
+
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%Internship
+%----------------------------------------------------------------------------------------
+
+\section{实习与实践}
+
+\begin{tabular}{llr}
+\rowcolor{mypink}
+	2014.1.14-25&  唯美度科技有限公司，实习生& 人间\\
+& $\bullet$负责专利研发的市场前期调研工作&\\
+& $\bullet$调研方式有文献查找、品牌网站研究、消费者调研、小组讨论等&\\
+& $\bullet$提出40个有市场前景的产品概念,如精油彩妆、防PM2.5底妆等&\\
+& $\bullet$负责公司年会舞蹈Nobody的编排与领舞&\\
+
+
+	\rowcolor{mypink}
+2013.7.13-21&ASEIC海外实践，志愿者&西洋\\
+& $\bullet$独自赴西洋做幼儿教育志愿活动,于贵族幼儿学校担任助教&\\
+& $\bullet$拜访当地贫困学校,感受中印教育文化差异&\\
+
+
+	\rowcolor{mypink}
+2012.8.1-7&书脊支教团，团队负责人&大洋\\
+ & $\bullet$招募并建立10人支队,赴大洋湟中葛家学校进行为期一周的支教&\\
+ & $\bullet$联系当地教育局与学校;撰写支队策划、工作手册与安全预案&\\
+ & $\bullet$确定支教主题与教学内容;主持每人支教会议及闭营仪式;安排家访等&\\
+
+
+
+	\rowcolor{mypink}
+2012.1.08-27&情系母校，负责人&人间\\
+ & $\bullet$发起并组织“重点高校学生返乡大型公益交流活动”(至少2000人参与)&\\
+ & $\bullet$招募周杰周伦12位演讲者与50位志愿者;撰写策划、团队分工表、宣传稿与总结报告等&\\
+ & $\bullet$拉取近万元赞助;设计现场流程;与电视台接洽宣传事宜;&\\
+
+
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	Skills and Assessment
+%----------------------------------------------------------------------------------------
+
+\section{技能及评价}
+
+\begin{tabular}{ll}
+
+英语 :
+ &CET/6 562 \hspace{2em}  优秀的英语听说读写能力\\
+
+ 计算机 :
+ &熟练使用 windows 办公软件: Word, Excel, PPT, Photoshop 等\\
+
+ 其他技能 :
+ &擅长瑜伽与交谊舞,热爱时尚\\
+ &做事以成就为导向,具有较强的领导力与团队合作意识,责任感强\\
+ &有较强的学习与创新能力,喜欢思考,乐于接受挑战,自信有主见\\
+
+
+\end{tabular}
+\end{document}
+\end{CJK*}
